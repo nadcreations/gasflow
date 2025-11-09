@@ -17,7 +17,7 @@ export default function GasflowPrivacyPage() {
         {/* Hero Section */}
         <section className="relative pt-32 pb-20 bg-gradient-to-br from-blue-50 via-purple-50 to-indigo-50 dark:from-slate-950 dark:via-purple-950 dark:to-slate-900">
           <div className="max-w-4xl mx-auto px-6 md:px-12">
-            <AnimatedSection animation="fadeIn" className="text-center">
+            <AnimatedSection className="text-center">
               <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center">
                 <Shield className="w-10 h-10 text-white" />
               </div>
@@ -35,7 +35,7 @@ export default function GasflowPrivacyPage() {
         <SectionWrapper className="bg-white dark:bg-slate-900">
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg prose-slate dark:prose-invert max-w-none">
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mb-4">
                   <Lock className="w-8 h-8 text-blue-600" />
                   Your Privacy Matters
@@ -48,7 +48,7 @@ export default function GasflowPrivacyPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   <Database className="w-8 h-8 text-indigo-600" />
                   Information We Collect
@@ -102,7 +102,7 @@ export default function GasflowPrivacyPage() {
                 </ul>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   <Eye className="w-8 h-8 text-purple-600" />
                   How We Use Your Information
@@ -142,7 +142,7 @@ export default function GasflowPrivacyPage() {
                 </ul>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   <Users className="w-8 h-8 text-green-600" />
                   Information Sharing
@@ -183,7 +183,7 @@ export default function GasflowPrivacyPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   <Lock className="w-8 h-8 text-red-600" />
                   Data Security
@@ -220,7 +220,7 @@ export default function GasflowPrivacyPage() {
                 </ul>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   Data Retention
                 </h2>
@@ -249,7 +249,7 @@ export default function GasflowPrivacyPage() {
                 </ul>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   Your Rights and Choices
                 </h2>
@@ -294,7 +294,7 @@ export default function GasflowPrivacyPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   <Bell className="w-8 h-8 text-yellow-600" />
                   Cookies and Tracking
@@ -314,7 +314,7 @@ export default function GasflowPrivacyPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   Children's Privacy
                 </h2>
@@ -326,7 +326,7 @@ export default function GasflowPrivacyPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   International Data Transfers
                 </h2>
@@ -338,7 +338,7 @@ export default function GasflowPrivacyPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   Changes to This Policy
                 </h2>
@@ -350,7 +350,7 @@ export default function GasflowPrivacyPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4 mt-12">
                   Contact Us
                 </h2>

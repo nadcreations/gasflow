@@ -43,7 +43,7 @@ export default function PricingPage() {
         {/* Hero */}
         <section className="bg-gradient-to-br from-blue-50 via-purple-50 to-indigo-50 dark:from-slate-950 dark:via-purple-950 dark:to-slate-900 pt-32 pb-20">
           <div className="max-w-7xl mx-auto px-6 md:px-12 text-center">
-            <AnimatedSection animation="fadeIn">
+            <AnimatedSection>
               <h1 className="text-4xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6">
                 Simple,{" "}
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -63,7 +63,7 @@ export default function PricingPage() {
 
         {/* Detailed Feature Comparison */}
         <SectionWrapper className="bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-900 dark:to-blue-950/20">
-          <AnimatedSection animation="fadeIn" className="text-center mb-12">
+          <AnimatedSection className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
               Feature Breakdown
             </h2>
@@ -300,7 +300,7 @@ export default function PricingPage() {
 
         {/* Benefits Section */}
         <SectionWrapper className="bg-white dark:bg-slate-900">
-          <AnimatedSection animation="fadeIn" className="text-center mb-12">
+          <AnimatedSection className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
               Why Choose Gasflow?
             </h2>
@@ -335,7 +335,7 @@ export default function PricingPage() {
 
         {/* CTA Section */}
         <SectionWrapper className="bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-600">
-          <AnimatedSection animation="fadeIn" className="text-center">
+          <AnimatedSection className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Ready to Get Started?
             </h2>

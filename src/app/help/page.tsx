@@ -133,7 +133,7 @@ export default function HelpCenterPage() {
         {/* Hero Section */}
         <section className="relative pt-32 pb-20 bg-gradient-to-br from-blue-50 via-purple-50 to-indigo-50 dark:from-slate-950 dark:via-purple-950 dark:to-slate-900 overflow-hidden">
           <div className="max-w-4xl mx-auto px-6 md:px-12 text-center">
-            <AnimatedSection animation="fadeIn">
+            <AnimatedSection>
               <h1 className="text-5xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6">
                 How can we{" "}
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
@@ -161,7 +161,7 @@ export default function HelpCenterPage() {
 
         {/* Categories */}
         <SectionWrapper className="bg-white dark:bg-slate-900">
-          <AnimatedSection animation="fadeIn" className="text-center mb-12">
+          <AnimatedSection className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">
               Browse by Category
             </h2>
@@ -201,7 +201,7 @@ export default function HelpCenterPage() {
         {/* Popular Articles */}
         <SectionWrapper className="bg-gradient-to-br from-slate-50 via-blue-50/30 to-indigo-50/30 dark:from-slate-950 dark:via-blue-950/20 dark:to-indigo-950/20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <AnimatedSection animation="slideRight">
+            <AnimatedSection>
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center">
                   <BookOpen className="w-6 h-6 text-white" />
@@ -230,7 +230,7 @@ export default function HelpCenterPage() {
               </ul>
             </AnimatedSection>
 
-            <AnimatedSection animation="slideLeft">
+            <AnimatedSection>
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
                   <PlayCircle className="w-6 h-6 text-white" />
@@ -271,7 +271,7 @@ export default function HelpCenterPage() {
 
         {/* FAQs */}
         <SectionWrapper className="bg-white dark:bg-slate-900">
-          <AnimatedSection animation="fadeIn" className="text-center mb-12">
+          <AnimatedSection className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">
               Frequently Asked Questions
             </h2>
@@ -304,7 +304,7 @@ export default function HelpCenterPage() {
 
         {/* Contact Support */}
         <SectionWrapper className="bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600">
-          <AnimatedSection animation="fadeIn" className="text-center">
+          <AnimatedSection className="text-center">
             <MessageCircle className="w-16 h-16 mx-auto mb-6 text-white" />
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Still Need Help?

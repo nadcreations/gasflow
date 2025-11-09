@@ -57,7 +57,7 @@ export default function GasflowDemoPage() {
         {/* Hero Section */}
         <section className="relative pt-32 pb-20 bg-gradient-to-br from-blue-50 via-purple-50 to-indigo-50 dark:from-slate-950 dark:via-purple-950 dark:to-slate-900 overflow-hidden">
           <div className="max-w-7xl mx-auto px-6 md:px-12 text-center">
-            <AnimatedSection animation="fadeIn">
+            <AnimatedSection>
               <h1 className="text-5xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6">
                 See Gasflow in{" "}
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
@@ -96,7 +96,7 @@ export default function GasflowDemoPage() {
               {/* Demo Tab */}
               <TabsContent value="demo">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                  <AnimatedSection animation="slideRight">
+                  <AnimatedSection>
                     <div className="space-y-6">
                       <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
                         Book Your Free Demo
@@ -166,7 +166,7 @@ export default function GasflowDemoPage() {
                     </div>
                   </AnimatedSection>
 
-                  <AnimatedSection animation="slideLeft">
+                  <AnimatedSection>
                     <GlassCard gradient={false}>
                       {!isSubmitted ? (
                         <form onSubmit={handleSubmit} className="space-y-4">
@@ -298,7 +298,7 @@ export default function GasflowDemoPage() {
               {/* Contact Tab */}
               <TabsContent value="contact">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                  <AnimatedSection animation="slideRight">
+                  <AnimatedSection>
                     <GlassCard gradient={false}>
                       {!isSubmitted ? (
                         <form onSubmit={handleSubmit} className="space-y-4">
@@ -404,7 +404,7 @@ export default function GasflowDemoPage() {
                     </GlassCard>
                   </AnimatedSection>
 
-                  <AnimatedSection animation="slideLeft">
+                  <AnimatedSection>
                     <div className="space-y-6">
                       <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
                         Contact Information

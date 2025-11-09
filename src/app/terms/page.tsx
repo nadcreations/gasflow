@@ -24,7 +24,7 @@ export default function GasflowTermsPage() {
         {/* Hero Section */}
         <section className="relative pt-32 pb-20 bg-gradient-to-br from-blue-50 via-purple-50 to-indigo-50 dark:from-slate-950 dark:via-purple-950 dark:to-slate-900">
           <div className="max-w-4xl mx-auto px-6 md:px-12">
-            <AnimatedSection animation="fadeIn" className="text-center">
+            <AnimatedSection className="text-center">
               <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center">
                 <FileText className="w-10 h-10 text-white" />
               </div>
@@ -42,7 +42,7 @@ export default function GasflowTermsPage() {
         <SectionWrapper className="bg-white dark:bg-slate-900 py-12 md:py-20">
           <div className="max-w-4xl mx-auto px-4 md:px-0">
             <div className="prose prose-lg prose-slate dark:prose-invert max-w-none">
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white">
                   <FileText className="w-8 h-8 text-blue-600" />
                   Agreement to Terms
@@ -61,7 +61,7 @@ export default function GasflowTermsPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   <Users className="w-8 h-8 text-indigo-600" />
                   User Accounts
@@ -110,7 +110,7 @@ export default function GasflowTermsPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   <Shield className="w-8 h-8 text-purple-600" />
                   Acceptable Use
@@ -155,7 +155,7 @@ export default function GasflowTermsPage() {
                 </ul>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   <CreditCard className="w-8 h-8 text-green-600" />
                   Subscription and Payment
@@ -220,7 +220,7 @@ export default function GasflowTermsPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   Intellectual Property
                 </h2>
@@ -254,7 +254,7 @@ export default function GasflowTermsPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   <AlertCircle className="w-8 h-8 text-red-600" />
                   Disclaimers and Limitations
@@ -295,7 +295,7 @@ export default function GasflowTermsPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   Indemnification
                 </h2>
@@ -313,7 +313,7 @@ export default function GasflowTermsPage() {
                 </ul>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   Data Protection and Privacy
                 </h2>
@@ -332,7 +332,7 @@ export default function GasflowTermsPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="flex items-center gap-3 text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   <Ban className="w-8 h-8 text-orange-600" />
                   Termination
@@ -371,7 +371,7 @@ export default function GasflowTermsPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   Modifications to Terms
                 </h2>
@@ -384,7 +384,7 @@ export default function GasflowTermsPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   Governing Law and Dispute Resolution
                 </h2>
@@ -407,7 +407,7 @@ export default function GasflowTermsPage() {
                 </p>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   General Provisions
                 </h2>
@@ -435,7 +435,7 @@ export default function GasflowTermsPage() {
                 </ul>
               </AnimatedSection>
 
-              <AnimatedSection animation="fadeIn">
+              <AnimatedSection>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white mt-12">
                   Contact Us
                 </h2>
