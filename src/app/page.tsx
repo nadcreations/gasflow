@@ -18,6 +18,7 @@ import { TestimonialSection } from "@/components/sections/TestimonialSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import Pricing from "@/components/Pricing";
 import { FloatingCTA } from "@/components/shared/FloatingCTA";
+import { GradientButton } from "@/components/shared/GradientButton";
 import { fadeInUp, stagger } from "@/lib/motion";
 import { Navbar } from "@/components/layout/Navbar";
 
@@ -92,9 +93,9 @@ export default function GasflowPage() {
                 manage customers, and get real-time insights.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button variant="gradient" size="lg" asChild>
+                <GradientButton size="lg" asChild>
                   <Link href="/products/gasflow/demo">Request Demo</Link>
-                </Button>
+                </GradientButton>
                 <Button variant="outline" size="lg" asChild>
                   <Link href="/products/gasflow/pricing">View Pricing</Link>
                 </Button>

@@ -26,6 +26,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { FloatingCTA } from "@/components/shared/FloatingCTA";
+import { GradientButton } from "@/components/shared/GradientButton";
 import { fadeInUp, stagger } from "@/lib/motion";
 import { Navbar } from "@/components/layout/Navbar";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
@@ -239,11 +240,11 @@ export default function BlogPage() {
                       {featuredArticle.readTime}
                     </div>
                   </div>
-                  <Button variant="gradient" size="lg" asChild>
+                  <GradientButton size="lg" asChild>
                     <Link href={`/products/gasflow/blog/${featuredArticle.slug}`}>
                       Read Article <ArrowRight className="ml-2" size={16} />
                     </Link>
-                  </Button>
+                  </GradientButton>
                 </CardContent>
               </div>
             </Card>

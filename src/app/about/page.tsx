@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/card";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { FloatingCTA } from "@/components/shared/FloatingCTA";
+import { GradientButton } from "@/components/shared/GradientButton";
 import { fadeInUp, stagger } from "@/lib/motion";
 import { Navbar } from "@/components/layout/Navbar";
 
@@ -421,9 +422,9 @@ export default function AboutPage() {
                 our growing team, we'd love to hear from you.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button variant="gradient" size="lg" asChild>
+                <GradientButton size="lg" asChild>
                   <Link href="/products/gasflow/demo">Get Started</Link>
-                </Button>
+                </GradientButton>
                 <Button variant="outline" size="lg" asChild>
                   <Link href="/contact">Contact Us</Link>
                 </Button>

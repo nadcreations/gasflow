@@ -27,6 +27,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { SectionWrapper } from "@/components/ui/section-wrapper";
 import { FloatingCTA } from "@/components/shared/FloatingCTA";
+import { GradientButton } from "@/components/shared/GradientButton";
 import { fadeInUp, stagger } from "@/lib/motion";
 import { Navbar } from "@/components/layout/Navbar";
 
@@ -283,10 +284,10 @@ export default function ContactPage() {
                     />
                   </div>
 
-                  <Button variant="gradient" size="lg" type="submit" className="w-full">
+                  <GradientButton size="lg" type="submit" className="w-full">
                     <Send className="mr-2" size={20} />
                     Send Message
-                  </Button>
+                  </GradientButton>
                 </form>
               ) : (
                 <Card className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border-green-200 dark:border-green-800">
