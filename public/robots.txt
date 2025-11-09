@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /profile/
+Disallow: /business/
+
+# Allow public pages
+Allow: /
+Allow: /register
+Allow: /plans
+
+Sitemap: https://www.gasflow.app/sitemap.xml
