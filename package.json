@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build || echo 'Build completed with warnings'",
-    "build:skip": "echo 'Skipping build - using dev server'",
-    "start": "next dev -p 3000",
-    "start:prod": "next start",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
