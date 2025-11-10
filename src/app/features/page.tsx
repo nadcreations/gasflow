@@ -286,7 +286,7 @@ export default function GasflowFeaturesPage() {
 
                   {/* Feature Visual */}
                   <div className={index % 2 === 1 ? "lg:order-1" : ""}>
-                    <GlassCard gradient>
+                    <GlassCard>
                       <div className="aspect-video bg-gradient-to-br from-blue-100 via-indigo-100 to-purple-100 dark:from-slate-800 dark:via-indigo-900 dark:to-slate-900 rounded-xl flex items-center justify-center">
                         <div className="text-center p-8">
                           <feature.icon

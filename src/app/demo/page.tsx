@@ -167,7 +167,7 @@ export default function GasflowDemoPage() {
                   </AnimatedSection>
 
                   <AnimatedSection>
-                    <GlassCard gradient={false}>
+                    <GlassCard>
                       {!isSubmitted ? (
                         <form onSubmit={handleSubmit} className="space-y-4">
                           <div>
@@ -299,7 +299,7 @@ export default function GasflowDemoPage() {
               <TabsContent value="contact">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                   <AnimatedSection>
-                    <GlassCard gradient={false}>
+                    <GlassCard>
                       {!isSubmitted ? (
                         <form onSubmit={handleSubmit} className="space-y-4">
                           <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">

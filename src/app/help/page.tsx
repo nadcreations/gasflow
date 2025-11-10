@@ -173,7 +173,7 @@ export default function HelpCenterPage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {categories.map((category, index) => (
               <StaggerItem key={index}>
-                <GlassCard gradient={false} hover>
+                <GlassCard>
                   <div className="flex items-start gap-4">
                     <div
                       className={`w-14 h-14 rounded-xl bg-gradient-to-br ${category.gradient} flex items-center justify-center flex-shrink-0`}
@@ -241,7 +241,7 @@ export default function HelpCenterPage() {
               </div>
 
               <div className="space-y-4">
-                <GlassCard hover>
+                <GlassCard>
                   <div className="aspect-video bg-gradient-to-br from-blue-100 via-indigo-100 to-purple-100 dark:from-slate-800 dark:via-indigo-900 dark:to-slate-900 rounded-xl flex items-center justify-center mb-3">
                     <PlayCircle className="w-16 h-16 text-slate-400" />
                   </div>
@@ -253,7 +253,7 @@ export default function HelpCenterPage() {
                   </p>
                 </GlassCard>
 
-                <GlassCard hover>
+                <GlassCard>
                   <div className="aspect-video bg-gradient-to-br from-purple-100 via-pink-100 to-red-100 dark:from-slate-800 dark:via-purple-900 dark:to-slate-900 rounded-xl flex items-center justify-center mb-3">
                     <PlayCircle className="w-16 h-16 text-slate-400" />
                   </div>
